@@ -18,7 +18,7 @@ dogs = [
 
 # Deine the home view
 def home(request):
-    return HttpResponse('<h1>Hello Dog Lover!</h1>')
+    return render(request, 'home.html')
 
 # define about view
 def about(request):
