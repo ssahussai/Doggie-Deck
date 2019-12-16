@@ -1,19 +1,5 @@
 from django.shortcuts import render
-from django.http import HttpResponse
-
-class Dog:
-    def __init__(self, name, breed, description, age):
-        self.name = name
-        self.breed = breed
-        self.description = description
-        self.age = age 
-
-dogs = [
-    Dog('Rufus', 'pomeranian', 'sweet little dog', 3),
-    Dog('Lia', 'poodle', 'full of energy and easy to train', 0),
-    Dog('Tommy', 'beagle', 'curious and very sweet', 4)
-]
-
+from .models import Dog
 
 
 # Deine the home view
