@@ -12,4 +12,5 @@ def about(request):
 
 # adds new view 
 def dogs_index(request):
+    dogs = Dog.objects.all()
     return render(request, 'dogs/index.html', { 'dogs': dogs })
