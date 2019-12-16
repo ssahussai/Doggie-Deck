@@ -13,7 +13,8 @@ In this project I have created a modern full-stack reference app named DogCollec
 * Django
 * PostgreSQL 
 * Python 
-* Materialize 
-* CSS 
+* Materialize CSS Framework 
+* Django Template Language (DTL)
+* Template Inheritance (Partials)
 
 ## Link to the deployed app
