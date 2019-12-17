@@ -11,6 +11,7 @@ In this project I have created a modern full-stack reference app named DogCollec
 * AAU, I want to see a navigation bar for "Add a Dog" and when I click on that I should be able to add a new dog to the database. 
 *  AAU, when viewing a dog's detail page, I want to click EDIT to update that dog's information.
 * AAU, when viewing a dog's detail page, I want to click DELETE to remove that dog from the database. 
+* AAU, I should be able to track the dog meals such as breakfast, lunch, and dinner. 
 
 ## Technologies Used
 * Django
