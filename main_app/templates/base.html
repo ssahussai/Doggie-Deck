@@ -18,8 +18,9 @@
             <li><a href="/" class="left brand-logo">&nbsp;&nbsp;DogCollector</a></li>
           </ul>
           <ul class="right">
-            <li><a href="/about">About</a></li>
-            <li><a href="/dogs">View All My Dogs</a></li>
+            <li><a href="{% url 'about' %}">About</a></li>
+            <li><a href="{% url 'dogs_create' %}">Add a Dog</a></li>
+            <li><a href="{% url 'index' %}">View All My Dogs</a></li>
           </ul>
         </div>
       </nav>
