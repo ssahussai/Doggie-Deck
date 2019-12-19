@@ -5,7 +5,7 @@ from .models import Dog, Toy
 from .forms import FeedingForm
 
 
-# Deine the home view
+# Define the home view
 def home(request):
     return render(request, 'home.html')
 
@@ -20,10 +20,15 @@ def dogs_index(request):
 
 def dogs_detail(request, dog_id):
     dog = Dog.objects.get(id=dog_id)
+    toys_dog_doesnt_have = Toy.objects.exclude(id__in = dog.toys.all().values_list('id'))
     feeding_form = FeedingForm()
     return render(request, 'dogs/detail.html', { 
-        'dog': dog, 'feeding_form': feeding_form 
+        'dog': dog, 
+        'feeding_form': feeding_form,
+        'toys': toys_dog_doesnt_have 
     })
+
+
 
 def add_feeding(request, dog_id):
     form = FeedingForm(request.POST)
@@ -45,7 +50,7 @@ class DogDelete(DeleteView):
     model = Dog
     success_url = '/dogs/'
 
-# for Toy model
+# CRUD for Toy model
 class ToyList(ListView):
     model = Toy
 
