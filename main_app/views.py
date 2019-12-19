@@ -29,7 +29,6 @@ def dogs_detail(request, dog_id):
     })
 
 
-
 def add_feeding(request, dog_id):
     form = FeedingForm(request.POST)
     if form.is_valid():
@@ -37,6 +36,11 @@ def add_feeding(request, dog_id):
         new_feeding.dog_id = dog_id
         new_feeding.save()
     return redirect('detail', dog_id=dog_id)
+
+def assoc_toy(request, dog_id, toy_id):
+    Dog.objects.get(id=dog_id).toys.add(toy_id)
+    return redirect('detail', dog_id=dog_id)
+
 
 class DogCreate(CreateView):
     model = Dog
