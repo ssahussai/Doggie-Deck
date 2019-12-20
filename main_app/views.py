@@ -46,19 +46,18 @@ def assoc_toy(request, dog_id, toy_id):
 def add_photo(request, dog_id):
     S3_BASE_URL ='https://s3-us-east-2.amazonaws.com/'
     BUCKET = 'dogcollection.ssk'
-    photo_file = request.FILES.get('photo_file', None)
+    photo_file = request.FILES.get('photo-file', None)
     if photo_file:
         s3 = boto3.client('s3')
         key = uuid.uuid4().hex[:6] + photo_file.name[photo_file.name.rfind('.'):]
-        try: 
+        try:
             s3.upload_fileobj(photo_file, BUCKET, key)
             url = f"{S3_BASE_URL}{BUCKET}/{key}"
             photo = Photo(url=url, dog_id=dog_id)
             photo.save()
-        except: 
+        except:
             print('An error has occurred uploading file to S3')
     return redirect('detail', dog_id=dog_id)
-
 
 class DogCreate(CreateView):
     model = Dog
