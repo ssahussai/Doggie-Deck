@@ -14,6 +14,7 @@ In this project I have created a modern full-stack reference app named DogCollec
 * AAU, I should be able to track the dog meals such as breakfast, lunch, and dinner. 
 * AAU, when viewing the detail page of the dog, I want to see a list of toys the dog has and be able to add toys to the list that he dog doesn't already have. 
 * AAU, I should be able to add image(s) for the dog(s) in the "details" of that dog. If there are no images for the dog, I want to see a message saying "No Photos Uploaded" and be able to see a form underneath with options to upload images. 
+* AAU, I want to make sure the dogs belong to a user and a user able to have many dogs in their collection. 
 
 
 ## Technologies Used
