@@ -2,7 +2,7 @@
 
 Created By | Last Updated
 -----------|--------------
-Salma Khan | December 18, 2019
+Salma Khan | December 20, 2019
 
 In this project I have created a modern full-stack reference app named DogCollector. 
 
@@ -13,6 +13,7 @@ In this project I have created a modern full-stack reference app named DogCollec
 * AAU, when viewing a dog's detail page, I want to click DELETE to remove that dog from the database. 
 * AAU, I should be able to track the dog meals such as breakfast, lunch, and dinner. 
 * AAU, when viewing the detail page of the dog, I want to see a list of toys the dog has and be able to add toys to the list that he dog doesn't already have. 
+* AAU, I should be able to add a picture(s) for the dog(s). 
 
 
 ## Technologies Used
@@ -22,5 +23,6 @@ In this project I have created a modern full-stack reference app named DogCollec
 * Materialize CSS Framework 
 * Django Template Language (DTL)
 * Template Inheritance (Partials)
+* Amazong Web Services(AWS)
 
 ## Link to the deployed app
