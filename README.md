@@ -4,7 +4,7 @@ Created By | Last Updated
 -----------|--------------
 Salma Khan | December 24, 2019
 
-In this project I have created a modern full-stack reference app named DogCollector. 
+In this project, I have created a modern full-stack reference application named "Dog Collector" where you can keep track of all of your dogs, their feeding schedules, their toys, as well as be able to upload their pictures. 
 
 ## User Stories 
 * As a user (AAU), when I land in the app I should be able to see an option ether to Sign Up or Log In. 
@@ -30,4 +30,4 @@ In this project I have created a modern full-stack reference app named DogCollec
 * Amazong Web Services(AWS)
 * Django Authentication 
 
-## Link to the deployed app
+## Link to the deployed app 
