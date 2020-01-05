@@ -6,6 +6,9 @@ Salma Khan | December 24, 2019
 
 In this project, I have created a modern full-stack reference application named "Dog Collector" where you can showcase all your dogs in one page with their name, unique description, breed, and age. You can also keep track of all of your dogs, their feeding schedules, their toys, as well as be able to upload their pictures. 
 
+![home page](./main_app/static/images/dogcollectorhome.png)
+![details page](./main_app/static/images/dogcollector.png)
+
 ## User Stories 
 * As a user (AAU), when I land in the app I should be able to see an option ether to Sign Up or Log In. 
     * I should also see a navigation bar and be able to go to "About" page that tells me about the app and how to use it.
@@ -19,7 +22,6 @@ In this project, I have created a modern full-stack reference application named 
 * AAU, when viewing the detail page of the dog, I want to see a list of toys the dog has and be able to add toys to the list that he dog doesn't already have. 
 * AAU, I should be able to add image(s) for the dog(s) in the "details" page of that dog. If there are no images for the dog, I want to see a message saying "No Photos Uploaded" and be able to see a form underneath with options to upload images. 
 
-
 ## Technologies Used
 * Django
 * PostgreSQL 
@@ -32,4 +34,4 @@ In this project, I have created a modern full-stack reference application named 
 * Heroku
 
 ## Link to the deployed app in Heroku
-[Click here to see the Dog Collector application](https://dogcollectorssk.herokuapp.com/)
+[Dog Collector](https://dogcollectorssk.herokuapp.com/)
