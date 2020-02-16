@@ -1,10 +1,10 @@
-# Dog Collector
+# Doggie Deck
 
 Created By | Last Updated
 -----------|--------------
 Salma Khan | December 24, 2019
 
-In this project, I have created a modern full-stack reference application named "Dog Collector" where you can showcase all your dogs in one page with their name, unique description, breed, and age. You can also keep track of all of your dogs, their feeding schedules, their toys, as well as be able to upload their pictures. 
+In this project, I have created a modern full-stack reference application named "Doggie Deck" where you can showcase all your dogs in one page with their name, unique description, breed, and age. You can also keep track of all of your dogs, their feeding schedules, their toys, as well as be able to upload their pictures. 
 
 ![home page](./main_app/static/images/dogcollectorhome.png)
 ![details page](./main_app/static/images/dogcollector.png)
