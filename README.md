@@ -6,8 +6,8 @@ Salma Khan | December 24, 2019
 
 In this project, I have created a modern full-stack reference application named "Doggie Deck" where you can showcase all your dogs in one page with their name, unique description, breed, and age. You can also keep track of all of your dogs, their feeding schedules, their toys, as well as be able to upload their pictures. 
 
-![home page](./main_app/static/images/dogcollectorhome.png)
-![details page](./main_app/static/images/dogcollector.png)
+![home page](./main_app/static/images/aboutdoggiedeck.png)
+![details page](./main_app/static/images/doggiedeckdetails.png)
 
 ## User Stories 
 * As a user (AAU), when I land in the app I should be able to see an option ether to Sign Up or Log In. 
@@ -34,4 +34,4 @@ In this project, I have created a modern full-stack reference application named 
 * Heroku
 
 ## Link to the deployed app in Heroku
-[Dog Collector](https://dogcollectorssk.herokuapp.com/)
+[Doggie Deck](https://dogcollectorssk.herokuapp.com/)
